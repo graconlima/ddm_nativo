@@ -3,6 +3,7 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     xmlns:android="http://schemas.android.com/apk/res/android"
 >
 
@@ -40,6 +41,12 @@
             android:layout_height="match_parent"
             android:inputType="textPassword"
             />
+        <!--com.example.ddm_nativo.componente_customizado.MeuEditText
+            android:id="@+id/campoSenha"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Nome aqui"
+            /-->
     </GridLayout>
 
     <Button
