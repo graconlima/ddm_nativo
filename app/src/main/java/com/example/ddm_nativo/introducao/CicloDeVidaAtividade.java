@@ -3,6 +3,7 @@ package com.example.ddm_nativo.introducao;
 import android.os.Bundle;
 import android.app.Activity;
 public class CicloDeVidaAtividade extends Activity {
+
     protected void onCreate(Bundle estado) {
         super.onCreate(estado);
         System.out.println(" onCreate() ");
