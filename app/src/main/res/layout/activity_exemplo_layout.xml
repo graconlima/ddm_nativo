@@ -19,10 +19,16 @@
         android:columnCount="2"
         android:rowCount="2">
         <TextView
-            android:text="Nome"
-            android:layout_height="30dp"
-            android:layout_width="70dp"
+            android:text="132456789"
+            android:layout_height="30mm"
+            android:layout_width="30mm"
+            android:gravity="left"
+            android:layout_gravity="right"
+            android:padding="10mm"
+            android:layout_margin="10mm"
+            android:layout_marginTop="5mm"
             android:textSize="20dp"
+            android:background="@color/verde"
             />
         <EditText
             android:id="@+id/campoNome"
