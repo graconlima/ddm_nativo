@@ -20,9 +20,12 @@ public class ExemploLayout extends AppCompatActivity {
         
         //layout com XML
         setContentView(R.layout.activity_exemplo_layout);
+
         EditText campoNome = findViewById(R.id.campoNome);
         EditText campoSenha = findViewById(R.id.campoSenha);
         Button b = findViewById(R.id.botaoEnviar);
+
+        //Exemplo Eventos
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

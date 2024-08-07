@@ -24,9 +24,9 @@
             android:layout_width="30mm"
             android:gravity="left"
             android:layout_gravity="right"
-            android:padding="10mm"
-            android:layout_margin="10mm"
-            android:layout_marginTop="5mm"
+            android:padding="1mm"
+            android:layout_margin="1mm"
+            android:layout_marginTop="1mm"
             android:textSize="20dp"
             android:background="@color/verde"
             />
@@ -41,18 +41,18 @@
             android:layout_width="70dp"
             android:textSize="20dp"
             />
-        <EditText
+        <!--EditText
             android:id="@+id/campoSenha"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="textPassword"
-            />
-        <!--com.example.ddm_nativo.componente_customizado.MeuEditText
+            /-->
+        <com.example.ddm_nativo.componente_customizado.MeuEditText
             android:id="@+id/campoSenha"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Nome aqui"
-            /-->
+            />
     </GridLayout>
 
     <Button
